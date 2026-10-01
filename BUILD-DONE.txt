@@ -1,0 +1,5 @@
+Tests: 27 passed (pytest).
+Local implementation commit: b83fdbab7c1f62c0498ee6364d9092be5575ef2c
+Demo: 0.643307 seconds for installed CLI fixtures + run + report, below 5 seconds.
+
+Built a deterministic CPU-only Python anp CLI with fixtures, run, report, challenge and revise commands, pure protocol evaluation, strict local JSON validation, atomic report/results writes, synthetic and declared real-data provenance, 200 independently labelled planted cases and a five-record example. Exact counts and status sets reconcile with ground truth, adversarial and determinism tests pass, and documentation records the honesty boundary, limitations, improvement hook and pending two-week verdict. No network calls or publishing were performed. This report names the implementation commit; the following documentation-only commit adds this report to avoid a self-referential commit hash.
