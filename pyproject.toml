@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-negotiation-protocol"
+version = "0.1.0"
+description = "Deterministic local plan challenge and revision protocol"
+requires-python = ">=3.10"
+
+[project.scripts]
+anp = "agent_negotiation_protocol.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
